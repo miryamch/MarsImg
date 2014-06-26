@@ -1,0 +1,20 @@
+﻿Build started 26.06.2014 11:55:07.
+     1>Project "C:\Users\Myriam\Documents\Cours\ComputationalSciences\ProjectI\MarsSiftGPU\SiftGPU\msvc\TestWin\TestWin.vcxproj" on node 8 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "TestWin_Release\TestWin.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../Include/ /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"TestWin_Release\\" /Fd"TestWin_Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\TestWin\GLTestWnd.cpp
+         GLTestWnd.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\TestWin.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../../lib/ opengl32.lib glu32.lib testbase.lib siftgpu.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"TestWin_Release\TestWin.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:".\Release/TestWin.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\TestWin.lib" /MACHINE:X86 TestWin_Release\GLTestWnd.obj
+         TestWin.vcxproj -> C:\Users\Myriam\Documents\Cours\ComputationalSciences\ProjectI\MarsSiftGPU\SiftGPU\msvc\TestWin\..\..\bin\TestWin.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\bin\TestWin.exe;#1" /manifest TestWin_Release\TestWin.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "TestWin_Release\TestWin.unsuccessfulbuild".
+         Touching "TestWin_Release\TestWin.lastbuildstate".
+     1>Done Building Project "C:\Users\Myriam\Documents\Cours\ComputationalSciences\ProjectI\MarsSiftGPU\SiftGPU\msvc\TestWin\TestWin.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.96

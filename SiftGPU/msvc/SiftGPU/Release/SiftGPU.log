@@ -1,0 +1,48 @@
+﻿Build started 26.06.2014 11:54:51.
+     1>Project "C:\Users\Myriam\Documents\Cours\ComputationalSciences\ProjectI\MarsSiftGPU\SiftGPU\msvc\SiftGPU\SiftGPU.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\SiftGPU.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../Include/ /Zi /nologo /W3 /WX- /O2 /Ob1 /Ot /Oy- /D NDEBUG /D SIFTGPU_EXPORTS /D WIN32 /D _WINDOWS /D _USRDLL /D SIFTGPU_DLL /D DLL_EXPORT /D _CRT_SECURE_NO_DEPRECATE /D SERVER_SIFTGPU_ENABLED /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\SiftGPU\CLTexImage.cpp ..\..\src\SiftGPU\FrameBufferObject.cpp ..\..\src\SiftGPU\GlobalUtil.cpp ..\..\src\SiftGPU\GLTexImage.cpp ..\..\src\SiftGPU\ProgramCL.cpp ..\..\src\SiftGPU\ProgramGLSL.cpp ..\..\src\SiftGPU\ProgramGPU.cpp ..\..\src\SiftGPU\PyramidCL.cpp ..\..\src\SiftGPU\PyramidGL.cpp ..\..\src\ServerSiftGPU\ServerSiftGPU.cpp ..\..\src\SiftGPU\ShaderMan.cpp ..\..\src\SiftGPU\SiftGPU.cpp ..\..\src\SiftGPU\SiftMatch.cpp ..\..\src\SiftGPU\SiftPyramid.cpp
+         CLTexImage.cpp
+         FrameBufferObject.cpp
+         GlobalUtil.cpp
+         GLTexImage.cpp
+         ProgramCL.cpp
+         ProgramGLSL.cpp
+         ProgramGPU.cpp
+         PyramidCL.cpp
+         PyramidGL.cpp
+         ServerSiftGPU.cpp
+         ShaderMan.cpp
+         SiftGPU.cpp
+         SiftMatch.cpp
+         SiftPyramid.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\SiftGPU.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:../../lib/ opengl32.lib glu32.lib winmm.lib glew32.lib glew32s.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"SiftGPU.def" /MANIFEST /ManifestFile:"Release\SiftGPU.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"Release\/SIFTGPU.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../lib/SIFTGPU.lib" /MACHINE:X86 /DLL Release\CLTexImage.obj
+         Release\FrameBufferObject.obj
+         Release\GlobalUtil.obj
+         Release\GLTexImage.obj
+         Release\ProgramCL.obj
+         Release\ProgramGLSL.obj
+         Release\ProgramGPU.obj
+         Release\PyramidCL.obj
+         Release\PyramidGL.obj
+         Release\ServerSiftGPU.obj
+         Release\ShaderMan.obj
+         Release\SiftGPU.obj
+         Release\SiftMatch.obj
+         Release\SiftPyramid.obj
+            Creating library ../../lib/SIFTGPU.lib and object ../../lib/SIFTGPU.exp
+         SiftGPU.vcxproj -> C:\Users\Myriam\Documents\Cours\ComputationalSciences\ProjectI\MarsSiftGPU\SiftGPU\msvc\SiftGPU\..\..\bin\SiftGPU.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\bin\SiftGPU.dll;#2" /manifest Release\SiftGPU.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\SiftGPU.unsuccessfulbuild".
+         Touching "Release\SiftGPU.lastbuildstate".
+     1>Done Building Project "C:\Users\Myriam\Documents\Cours\ComputationalSciences\ProjectI\MarsSiftGPU\SiftGPU\msvc\SiftGPU\SiftGPU.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.09
